@@ -14,5 +14,5 @@ RUN pip install  awscli --upgrade
 WORKDIR ${source_path}
 ENTRYPOINT  ["python"]
 
-#Default arguments to run test
+#Default arguments to run test1
 CMD ["main.py", "."]
